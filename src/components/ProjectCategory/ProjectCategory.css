@@ -1,0 +1,15 @@
+.category-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.category-item {
+    background-color: #313341;
+    color: #efefef;
+    padding: 1vh 2vh;
+    border: none;
+    border-radius: 1vh;
+    outline: none;
+    box-shadow: none;
+}

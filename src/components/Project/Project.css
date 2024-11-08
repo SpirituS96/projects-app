@@ -1,0 +1,37 @@
+.project-container {
+    width: 33vmin;
+    height: 33vmin;
+}
+
+.project-img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 2vh;
+}
+
+.project-info {
+    position: relative;
+    top: -90%;
+    left: 60%;
+    width: 30%;
+    height: 30%;
+    background-color: #313341;
+    border-radius: 1vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figure {
+    width: 30%;
+    position: relative;
+    top: -10%;
+    left: 45%;
+}
+
+.project-name {
+    font-weight: 700;
+    text-align: center;
+}

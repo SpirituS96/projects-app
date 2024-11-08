@@ -1,0 +1,32 @@
+.footer {
+    width: 100vw;
+    background-color: #313341;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-logo-container {
+    width: 20vmin;
+    margin: 5vmin 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 70%;
+    margin: 2vmin 0;
+}
+
+
+.footer-info {
+    margin: 2vmin 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 1vmin;
+}
