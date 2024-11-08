@@ -35,3 +35,29 @@
     font-weight: 700;
     text-align: center;
 }
+
+@media (max-width: 1360px) {
+    .project-container {
+        width: 80vmin;
+        height: 80vmin;
+        margin: 2vmin 4vmin;
+    }
+
+    .project-info {
+        top: -30%;
+        left: 0;
+        background-color: rgba(1, 1, 1, 0);
+        font-size: 2em;
+    }
+
+    .figure {
+        left: -5%;
+        color: #fff;
+        
+    }
+
+    .figure path {
+        fill: #fff;
+        stroke: #fff;
+    }
+}

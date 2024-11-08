@@ -16,3 +16,11 @@
     grid-gap: 2vmin;
 }
 
+
+@media (max-width: 1360px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

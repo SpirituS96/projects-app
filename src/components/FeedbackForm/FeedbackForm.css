@@ -106,3 +106,23 @@
 .form-input[type="checkbox"]:checked {
     background-color: #ffffff;
 }
+
+@media (max-width: 1360px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-group {
+        width: 90vmin;
+    }
+
+    .form-input {
+        width: 90%;
+        top: -20%;
+    }
+
+    .submitBtn {
+        width: 90%;
+    }
+}
